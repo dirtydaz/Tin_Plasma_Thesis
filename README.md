@@ -23,6 +23,8 @@ Plot Eigenvalue differences for top 5 eigenvalues
 
 - parse_CI_solutions(output):
     - internal function used to parse eigenvalue data from output files
+- filter_energies(energy_levels, J, P)
+    - internal function to filter energies by symmetry
 
 ### graph_ambit_output.py
 
@@ -106,4 +108,4 @@ Additional Functions:
 ### Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/yourprojectname.git
+   git clone https://github.com/dirtydaz/Tin_Plasma_Thesis.git
